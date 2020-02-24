@@ -54,7 +54,7 @@ BEGIN
   Pos:="1 5";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="1 5 1279 185";
+  MRUDockPos:="1 5 1920 185";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=36756;
@@ -63,7 +63,7 @@ BEGIN
   MDIChild:=0;
   PctWidth:="1000000";
   MRUFloat:="300 180";
-  MRUHorzDock:="1278 180";
+  MRUHorzDock:="1919 180";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -128,7 +128,7 @@ BEGIN
   Pos:="0 -2";
   Docking:=1;
   MRUDockID:=59420;
-  MRUDockPos:="0 -2 300 658";
+  MRUDockPos:="0 -2 300 671";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=8084;
@@ -138,7 +138,7 @@ BEGIN
   PctWidth:="1000000";
   MRUFloat:="300 180";
   MRUHorzDock:="300 180";
-  MRUVertDock:="300 660";
+  MRUVertDock:="300 673";
   MRUDockingState:=0;
   DockingStyle:=61440;
   TypeID:=0;
@@ -178,44 +178,15 @@ ProjectTree:=
 BEGIN
  Item[0]:=0;
  Item[1]:=2;
- Item[2]:=13;
- Item[3]:=14;
+ Item[2]:=14;
+ Item[3]:=15;
  ItemCount:=4;
- Sumcheck:=48;
- Selected:=18;
+ Sumcheck:=45;
+ Selected:=19;
 END;
 Frame[0]:=
 BEGIN
- Norm:="0156 0156 0745 0741";
- Min:="-001 -001";
- Access:="PROGRAM:NuevoProyecto.Recursos.NuevoRecurso1.Programas.NuevoPrograma1.Secciones.Comparadores!Comparadores";
- Type:=5;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Mag:=1;
-  END;
-  nViews:=1;
- END;
-END;
-Frame[1]:=
-BEGIN
- Norm:="0104 0104 1450 0689";
- Min:="-001 -001";
- Access:="PROGRAM:NuevoProyecto.Recursos.NuevoRecurso1.Programas.NuevoPrograma1.Secciones.Sumadores!Sumadores";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-  END;
-  nViews:=1;
- END;
-END;
-Frame[2]:=
-BEGIN
- Norm:="0208 0208 0797 0793";
+ Norm:="0052 0052 1380 0624";
  Min:="-001 -001";
  Access:="PROGRAM:NuevoProyecto.Recursos.NuevoRecurso1.Programas.NuevoPrograma1.Secciones.Timers!Timers";
  Type:=1;
@@ -227,38 +198,9 @@ BEGIN
   nViews:=1;
  END;
 END;
-Frame[3]:=
+Frame[1]:=
 BEGIN
- Norm:="0000 0000 0484 0420";
- Min:="-001 -001";
- Access:="PROGRAM:NuevoProyecto.Recursos.NuevoRecurso1.Programas.NuevoPrograma1.Secciones.Comparadores!Comparadores";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Yscroll:=8;
-  END;
-  nViews:=1;
- END;
-END;
-Frame[4]:=
-BEGIN
- Norm:="0234 0234 0823 0819";
- Min:="-001 -001";
- Access:="PROGRAM:NuevoProyecto.Recursos.NuevoRecurso1.Programas.NuevoPrograma1.Secciones.Leds!Leds";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-  END;
-  nViews:=1;
- END;
-END;
-Frame[5]:=
-BEGIN
- Norm:="0182 0182 0771 0767";
+ Norm:="0026 0026 1354 0598";
  Min:="-001 -001";
  Access:="PROGRAM:NuevoProyecto.Recursos.NuevoRecurso1.Programas.NuevoPrograma1!NuevoPrograma1.Símbolos";
  Type:=3;
@@ -279,29 +221,27 @@ BEGIN
     Width[4]:=84;
     Width[5]:=48;
     Width[6]:=200;
-    SortCol:=2;
    END;
   END;
   nViews:=1;
  END;
 END;
-Frame[6]:=
+Frame[2]:=
 BEGIN
  Max:=true;
- Norm:="0130 0130 1476 0715";
+ Norm:="0000 0000 1350 0594";
  Min:="-001 -001";
- Access:="PROGRAM:NuevoProyecto.Recursos.NuevoRecurso1.Programas.NuevoPrograma1.Secciones.Main!Main";
+ Access:="PROGRAM:NuevoProyecto.Recursos.NuevoRecurso1.Programas.NuevoPrograma1.Secciones.main!main";
  Type:=1;
  Views:=
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=1;
   END;
   nViews:=1;
  END;
 END;
-nFrames:=7;
+nFrames:=3;
 WatchWindow:=
 BEGIN
  NumWatch:=3;
