@@ -54,7 +54,7 @@ BEGIN
   Pos:="1 5";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="1 5 1920 225";
+  MRUDockPos:="1 5 1366 63";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=36756;
@@ -63,7 +63,7 @@ BEGIN
   MDIChild:=0;
   PctWidth:="1000000";
   MRUFloat:="300 180";
-  MRUHorzDock:="1919 220";
+  MRUHorzDock:="1365 58";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -76,10 +76,10 @@ BEGIN
  BEGIN
   BarID:=59412;
   Visible:=0;
-  Pos:="716 5";
+  Pos:="508 5";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="716 5 1424 185";
+  MRUDockPos:="508 5 1009 185";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=36756;
@@ -88,7 +88,7 @@ BEGIN
   MDIChild:=0;
   PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="708 54";
+  MRUHorzDock:="501 -39";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -104,7 +104,7 @@ BEGIN
   Pos:="1 5";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="1 5 710 185";
+  MRUDockPos:="1 5 502 185";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=36756;
@@ -113,7 +113,7 @@ BEGIN
   MDIChild:=0;
   PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="709 54";
+  MRUHorzDock:="501 -39";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -127,8 +127,8 @@ BEGIN
   BarID:=59413;
   Pos:="0 -2";
   Docking:=1;
-  MRUDockID:=59420;
-  MRUDockPos:="0 -2 300 631";
+  MRUDockID:=0;
+  MRUDockPos:="0 -2 257 491";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=8084;
@@ -138,7 +138,7 @@ BEGIN
   PctWidth:="1000000";
   MRUFloat:="300 180";
   MRUHorzDock:="300 180";
-  MRUVertDock:="300 633";
+  MRUVertDock:="257 493";
   MRUDockingState:=0;
   DockingStyle:=61440;
   TypeID:=0;
@@ -150,19 +150,19 @@ BEGIN
  BEGIN
   BarID:=59415;
   Visible:=0;
-  Pos:="1 5";
+  Pos:="0 0";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="1 5 637 185";
+  MRUDockPos:="0 0 0 0";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
-  PctWidth:="500000";
+  PctWidth:="1000000";
   MRUFloat:="300 180";
-  MRUHorzDock:="636 129";
+  MRUHorzDock:="300 -39";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -172,7 +172,7 @@ BEGIN
   ResourceID:=0;
  END;
  Bars:=7;
- Screen:="1920 1080";
+ Screen:="1366 768";
 END;
 ProjectTree:=
 BEGIN
@@ -185,6 +185,20 @@ BEGIN
  Selected:=18;
 END;
 Frame[0]:=
+BEGIN
+ Norm:="0078 0078 1464 0501";
+ Min:="-001 -001";
+ Access:="PROGRAM:NuevoProyecto.Recursos.NuevoRecurso1.Programas.NuevoPrograma1.Secciones.END!END";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[1]:=
 BEGIN
  Norm:="0026 0026 1354 0598";
  Min:="-001 -001";
@@ -213,20 +227,6 @@ BEGIN
   nViews:=1;
  END;
 END;
-Frame[1]:=
-BEGIN
- Norm:="0078 0078 1484 0501";
- Min:="-001 -001";
- Access:="PROGRAM:NuevoProyecto.Recursos.NuevoRecurso1.Programas.NuevoPrograma1.Secciones.END!END";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-  END;
-  nViews:=1;
- END;
-END;
 Frame[2]:=
 BEGIN
  Max:=true;
@@ -238,6 +238,7 @@ BEGIN
  BEGIN
   View[0]:=
   BEGIN
+   Yscroll:=6;
   END;
   nViews:=1;
  END;
