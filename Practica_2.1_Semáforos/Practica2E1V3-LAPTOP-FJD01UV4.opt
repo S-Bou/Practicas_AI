@@ -6,8 +6,8 @@ BEGIN
   BarID:=59422;
   Bars:=6;
   Bar[0]:=0;
-  Bar[1]:=59415;
-  Bar[2]:=59414;
+  Bar[1]:=59414;
+  Bar[2]:=59415;
   Bar[3]:=59416;
   Bar[4]:=59412;
   Bar[5]:=0;
@@ -51,10 +51,11 @@ BEGIN
  Bar[2]:=
  BEGIN
   BarID:=59414;
+  Visible:=0;
   Pos:="1 5";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="1 5 1279 94";
+  MRUDockPos:="1 5 1424 225";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=36756;
@@ -63,7 +64,7 @@ BEGIN
   MDIChild:=0;
   PctWidth:="1000000";
   MRUFloat:="300 180";
-  MRUHorzDock:="1278 89";
+  MRUHorzDock:="1423 220";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -88,7 +89,7 @@ BEGIN
   MDIChild:=0;
   PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="708 14";
+  MRUHorzDock:="708 54";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -113,7 +114,7 @@ BEGIN
   MDIChild:=0;
   PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="709 14";
+  MRUHorzDock:="709 54";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -127,8 +128,8 @@ BEGIN
   BarID:=59413;
   Pos:="0 -2";
   Docking:=1;
-  MRUDockID:=0;
-  MRUDockPos:="0 -2 300 749";
+  MRUDockID:=59420;
+  MRUDockPos:="0 -2 300 561";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=8084;
@@ -138,7 +139,7 @@ BEGIN
   PctWidth:="1000000";
   MRUFloat:="300 180";
   MRUHorzDock:="300 180";
-  MRUVertDock:="300 751";
+  MRUVertDock:="300 563";
   MRUDockingState:=0;
   DockingStyle:=61440;
   TypeID:=0;
@@ -162,7 +163,7 @@ BEGIN
   MDIChild:=0;
   PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="636 89";
+  MRUHorzDock:="636 129";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -182,11 +183,42 @@ BEGIN
  Item[3]:=14;
  ItemCount:=4;
  Sumcheck:=44;
- Selected:=18;
+ Selected:=15;
 END;
 Frame[0]:=
 BEGIN
- Norm:="0026 0026 1354 0598";
+ Norm:="0052 0052 1025 0388";
+ Min:="-001 -001";
+ Access:="PROGRAM:NuevoProyecto.Recursos.NuevoRecurso1.Programas.NuevoPrograma1!NuevoPrograma1";
+ Type:=7;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Mag:=1;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[1]:=
+BEGIN
+ Norm:="0052 0052 1435 0646";
+ Min:="-001 -001";
+ Access:="PROGRAM:NuevoProyecto.Recursos.NuevoRecurso1.Programas.NuevoPrograma1.Secciones.Sección1!Sección1";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Mag:=120;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[2]:=
+BEGIN
+ Max:=true;
+ Norm:="0078 0078 1439 0650";
  Min:="-001 -001";
  Access:="PROGRAM:NuevoProyecto.Recursos.NuevoRecurso1.Programas.NuevoPrograma1!NuevoPrograma1.Símbolos";
  Type:=3;
@@ -213,22 +245,7 @@ BEGIN
   nViews:=1;
  END;
 END;
-Frame[1]:=
-BEGIN
- Max:=true;
- Norm:="0000 0000 1350 0594";
- Min:="-001 -001";
- Access:="PROGRAM:NuevoProyecto.Recursos.NuevoRecurso1.Programas.NuevoPrograma1.Secciones.Sección1!Sección1";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-  END;
-  nViews:=1;
- END;
-END;
-nFrames:=2;
+nFrames:=3;
 WatchWindow:=
 BEGIN
  NumWatch:=3;
